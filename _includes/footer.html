@@ -1,0 +1,23 @@
+<footer>
+  <p>
+    <a href="https://github.com/{{ site.repository }}/" class="fa-stack fa-lg text-dark">
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}/" class="fa-stack fa-lg text-dark">
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fab fa-linkedin-in fa-stack-1x fa-inverse"></i>
+    </a>
+    <a href="https://twitter.com/{{ site.author.twitter }}" class="fa-stack fa-lg text-dark">
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+    </a>
+    <a href="mailto:{{ site.author.email }}" class="fa-stack fa-lg text-dark">
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+    </a>
+  </p>
+  <span>
+    &copy; <time datetime="{{ site.time }}">{{ site.time | date: '%Y' }}</time> {{ site.author.name }}
+  </span>
+</footer>

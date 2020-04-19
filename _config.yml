@@ -1,0 +1,40 @@
+# Site settings
+title:          Oleg Blokhin
+description:    "Journey and artifacts"
+url:            "https://jmistx.github.io/"
+
+# Yandex Metrika
+yandex_metrika: 62089111
+
+# Author
+author:
+  name:           Oleg Blokhin
+  url:            https://jmistx.github.io
+  email:          blokhin.o.d@gmail.com
+  twitter:        jmistx
+  linkedin:       blokhinoleg
+
+# Build settings
+markdown:       kramdown
+include:
+  - _pages
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        compressed
+
+# Gems
+plugins:
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jemoji #Uncomment this to allow emoji in your post
+
+# Permalinks
+permalink:      none
+
+# Excludes
+exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
+
+# Github Pages
+repository: jmistx
