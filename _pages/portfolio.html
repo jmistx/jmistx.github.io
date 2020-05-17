@@ -7,8 +7,10 @@ permalink: /portfolio/
 
 <div class="container-fluid">
     {% assign public_repositories = site.github.public_repositories | where:'fork', false | sort: 'stargazers_count' | reverse %}
+    <h1>Public repos:</h1>
     <div class="row">
-        {% for repository in public_repositories %}
+        {% for repository_url in site.data.portfolio.github.mine %}
+        {% assign repository = site.github.public_repositories | where:'html_url', repository_url | sample %}
         <!-- Project Card -->
         <div class="col-xl-4 col-md-6 d-flex align-items-stretch">
             <div class="card portfolio-card w-100">
@@ -55,9 +57,10 @@ permalink: /portfolio/
         {% endfor %}
     </div>
     {% assign forked_repositories = site.github.public_repositories | where:'fork', true | sort: 'pushed_at' | reverse %}
-    <h1>Contributing To:</h1>
+    <h1>Contributing to:</h1>
     <div class="row">
-        {% for repository in forked_repositories %}
+        {% for repository_url in site.data.portfolio.github.contributions %}
+        {% assign repository = site.github.public_repositories | where:'html_url', repository_url | sample %}
         <!-- Contributor Card -->
         <div class="col-xl-4 col-md-6 d-flex align-items-stretch">
             <div class="card portfolio-card w-100">
