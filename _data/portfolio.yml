@@ -9,3 +9,35 @@ github:
   contributions:
   - https://github.com/jmistx/nnv-dotnet-meetup-monitoring
   - https://github.com/jmistx/helm
+feed: 
+- title: Dodo Pizza — от отдела эксплуатации до SRE
+  description: Stachka '19
+  name: stachka2019
+  type: video
+  image: video_stachka2019.jpeg
+  url: https://www.youtube.com/watch?v=AZHPtgs2rck&list=UUMpfLBYXuJ0W4qS3icVijmw&index=26
+  date: 30/04/2019
+- title:  NALSD. Подход Google к проектированию распределённых приложений
+  description: 'NnvDotnet Meetup #2'
+  name: nnvdotnet_nalsd
+  type: video
+  image: video_nnvdotnet_nalsd.jpeg
+  url: https://www.youtube.com/watch?v=DQCPIdOP7H8
+- title: Эффективность побочный продукт, главное - радость
+  description: Митап "Что нужно знать разработчику, кроме кода"
+  name: netology_happiness
+  type: video
+  image: video_netology_happiness.jpeg
+  url: https://www.youtube.com/watch?v=mPUPKq09r9A
+- title: Истории из практики парного программирования
+  description: AgileDays'18
+  name: agiledays_pairprogramming
+  type: video
+  image: video_agiledays_pairprogramming.jpeg
+  url: https://www.youtube.com/watch?v=8SR6eyAZvm8
+- title: Как мы тестируем развертывание на Windows-машины при помощи docker
+  description: Рит++ RootConf'18
+  name: rit_docker
+  type: video
+  image: video_rit_docker.jpeg
+  url: https://www.youtube.com/watch?v=xe-MMA5K0fY

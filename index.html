@@ -7,6 +7,42 @@ author: Oleg Blokhin
 <div class="post">
 
     <div class="container-fluid">
+        {% assign public_repositories = site.feed %}
+        <div class="row">
+            {% for feed_item in site.data.portfolio.feed %}
+            <!-- Feed Card -->
+            <div class="col-xl-4 col-md-6 d-flex align-items-stretch">
+                <div class="card portfolio-card w-100">
+                    <div style="width:100%;height:0;padding-top:80%;position:relative;">
+                        <a href="{{ feed_item.url }}">
+                        <img class="card-img-top" src="/assets/images/{{ feed_item.image }}"
+                            style="position:absolute;top:0;left:0;width:100%;" alt="{{ feed_item.name }} Screenshot"
+                            onerror="this.onerror=null;this.src='/assets/images/default-project-image-small.png';" />
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-4 text-center">
+                                <div
+                                    class="btn btn-sm float-right nohover portfolio-tag-html">YouTube</div>
+                            </div>
+                            <div class="col-4">
+                            </div>
+                            <div class="col-4">
+                            </div>
+                        </div>
+                        <h3 class="card-title">
+                            <a href="{{ feed_item.url }}">{{ feed_item.title }}</a>
+                        </h3>
+                        <p class="card-text"></p>
+                    </div>
+                    <div class="card-footer">
+                        {{ feed_item.description }}
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
         {% assign public_repositories = site.github.public_repositories | where:'fork', false | sort: 'stargazers_count' | reverse %}
         <h1>Public repos:</h1>
         <div class="row">
