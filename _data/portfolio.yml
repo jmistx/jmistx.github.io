@@ -10,34 +10,96 @@ github:
   - https://github.com/jmistx/nnv-dotnet-meetup-monitoring
   - https://github.com/jmistx/helm
 feed: 
-- title: Dodo Pizza — от отдела эксплуатации до SRE
-  description: Stachka '19
-  name: stachka2019
-  type: video
-  image: video_stachka2019.jpeg
-  url: https://www.youtube.com/watch?v=AZHPtgs2rck&list=UUMpfLBYXuJ0W4qS3icVijmw&index=26
-  date: 30/04/2019
 - title:  NALSD. Подход Google к проектированию распределённых приложений
   description: 'NnvDotnet Meetup #2'
   name: nnvdotnet_nalsd
   type: video
   image: video_nnvdotnet_nalsd.jpeg
   url: https://www.youtube.com/watch?v=DQCPIdOP7H8
+  tags:
+  - YouTube
+  - NnvDotNet
+  - MeetUp
+- title: Я написал эту статью, ни разу не посмотрев на клавиатуру
+  description: Статья на habr.com
+  name: habr_blind_typing
+  type: article
+  image: article_habr_blind_typing.png
+  url: https://habr.com/ru/company/dodopizzadev/blog/462747/
+  tags:
+  - Habr
+- title: Dodo Pizza — от отдела эксплуатации до SRE
+  description: Stachka '19
+  name: stachka2019
+  type: video
+  image: video_stachka2019.jpeg
+  url: https://www.youtube.com/watch?v=AZHPtgs2rck&list=UUMpfLBYXuJ0W4qS3icVijmw&index=26
+  tags:
+  - YouTube
+  - Dodo
+  - Conf
+- title: Как программист в пиццерии на кассе стоял
+  description: Статья на Medium
+  name: it_in_pizzeria
+  type: article
+  image: article_it_in_pizzeria.png
+  url: https://medium.com/@o.blohin/%D0%BA%D0%B0%D0%BA-%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%81%D1%82-%D0%B2-%D0%BF%D0%B8%D1%86%D1%86%D0%B5%D1%80%D0%B8%D0%B8-%D0%BD%D0%B0-%D0%BA%D0%B0%D1%81%D1%81%D0%B5-%D1%81%D1%82%D0%BE%D1%8F%D0%BB-641e5af38b6c
+  tags:
+  - Medium
 - title: Эффективность побочный продукт, главное - радость
   description: Митап "Что нужно знать разработчику, кроме кода"
   name: netology_happiness
   type: video
   image: video_netology_happiness.jpeg
   url: https://www.youtube.com/watch?v=mPUPKq09r9A
-- title: Истории из практики парного программирования
-  description: AgileDays'18
-  name: agiledays_pairprogramming
+  tags:
+  - YouTube
+  - MeetUp
+  - Fun
+- title: Advertize Me feat. N.Voronov - Zatomatim
+  description: Музыкальный клип
+  name: zatomatim
   type: video
-  image: video_agiledays_pairprogramming.jpeg
-  url: https://www.youtube.com/watch?v=8SR6eyAZvm8
+  image: video_zatomatim.png
+  url: https://www.youtube.com/watch?v=z1yx4dFS-1M
+  tags:
+  - YouTube
+  - Dodo
+  - Fun
 - title: Как мы тестируем развертывание на Windows-машины при помощи docker
   description: Рит++ RootConf'18
   name: rit_docker
   type: video
   image: video_rit_docker.jpeg
   url: https://www.youtube.com/watch?v=xe-MMA5K0fY
+  tags:
+  - YouTube
+  - Dodo
+  - Conf
+- title: Истории из практики парного программирования
+  description: AgileDays'18
+  name: agiledays_pairprogramming
+  type: video
+  image: video_agiledays_pairprogramming.jpeg
+  url: https://www.youtube.com/watch?v=8SR6eyAZvm8
+  tags:
+  - YouTube
+  - Dodo
+  - Conf
+- title: Программирование с использование контрактов
+  description: AgileDays'16
+  name: agiledays_contracts
+  type: video
+  image: video_agiledays_contracts.png
+  url: https://www.youtube.com/watch?v=8v02-XPm3Do
+  tags:
+  - YouTube
+  - Conf
+- title: Сравнение OpenCL с CUDA, GLSL и OpenMP
+  description: Статья на habr.com
+  name: habr_opencl
+  type: article
+  image: article_habr_opencl.png
+  url: https://habr.com/ru/post/96122/
+  tags:
+  - Habr

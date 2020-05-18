@@ -22,14 +22,11 @@ author: Oleg Blokhin
                     </div>
                     <div class="card-body">
                         <div class="row">
+                            {% for tag in feed_item.tags %}
                             <div class="col-4 text-center">
-                                <div
-                                    class="btn btn-sm float-right nohover portfolio-tag-html">YouTube</div>
+                                <div class="btn btn-sm float-right nohover portfolio-tag-{{ tag | downcase }}">{{ tag }}</div>
                             </div>
-                            <div class="col-4">
-                            </div>
-                            <div class="col-4">
-                            </div>
+                            {% endfor %}
                         </div>
                         <h3 class="card-title">
                             <a href="{{ feed_item.url }}">{{ feed_item.title }}</a>
