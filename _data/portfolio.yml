@@ -10,8 +10,18 @@ github:
   - https://github.com/jmistx/nnv-dotnet-meetup-monitoring
   - https://github.com/jmistx/helm
 feed: 
+- title: "SRE: как его понимают бизнес и разработчики"
+  description: 'Расшифровка подкаста "Манул Слёрма" #9'
+  name: habr_slurm_sre
+  type: article
+  image: article_habr_slurm_sre.png
+  url: https://habr.com/ru/company/southbridge/blog/698358/
+  tags:
+  - Dodo
+  - SRE
+  - Habr
 - title: Будни SRE и межкомандные процессы в Dodo
-  description: 'Подкаст "Манул Слёрма". Выпуск # 10'
+  description: 'Подкаст "Манул Слёрма". Выпуск #10'
   name: manul_10
   type: podcast
   image: podcat_manul_slurm.png
@@ -21,7 +31,7 @@ feed:
   - Dodo
   - SRE
 - title: SRE глазами инженеров и бизнеса
-  description: 'Подкаст "Манул Слёрма". Выпуск # 9'
+  description: 'Подкаст "Манул Слёрма". Выпуск #9'
   name: manul_9
   type: podcast
   image: podcat_manul_slurm.png
