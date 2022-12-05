@@ -10,6 +10,15 @@ github:
   - https://github.com/jmistx/nnv-dotnet-meetup-monitoring
   - https://github.com/jmistx/helm
 feed: 
+- title: Как мы базу в облако увозили
+  description: "Saint Highload'22. Анекдоты из жизни в облаке."
+  name: hl_db_cloud
+  type: video
+  image: video_highload_how_we_moved_db_to_cloud.png
+  url: https://highload.ru/spb/2022/abstracts/9497
+  tags:
+  - Dodo
+  - Conf
 - title: "SRE: как его понимают бизнес и разработчики"
   description: 'Расшифровка подкаста "Манул Слёрма" #9'
   name: habr_slurm_sre
