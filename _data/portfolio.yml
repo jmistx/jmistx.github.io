@@ -10,6 +10,26 @@ github:
   - https://github.com/jmistx/nnv-dotnet-meetup-monitoring
   - https://github.com/jmistx/helm
 feed: 
+- title: Будни SRE и межкомандные процессы в Dodo
+  description: Подкаст "Манул Слёрма". Выпуск \# 10
+  name: manul_9
+  type: podcast
+  image: manul_slurm.png
+  url: https://slurm.mave.digital/ep-10
+  tags:
+  - Podcast
+  - Dodo
+  - SRE
+- title: SRE глазами инженеров и бизнеса
+  description: Подкаст "Манул Слёрма". Выпуск \# 9
+  name: manul_9
+  type: podcast
+  image: manul_slurm.png
+  url: https://slurm.mave.digital/ep-9
+  tags:
+  - Podcast
+  - Dodo
+  - SRE
 - title:  NALSD. Подход Google к проектированию распределённых приложений
   description: 'NnvDotnet Meetup #2'
   name: nnvdotnet_nalsd
